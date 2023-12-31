@@ -2,9 +2,9 @@
   "name": "nodejsdep",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "api.js",
   "scripts": {
-    "build": "netlify deploy --prod"
+    "dev": "nodemon api.js"
   },
   "author": "",
   "license": "ISC",
