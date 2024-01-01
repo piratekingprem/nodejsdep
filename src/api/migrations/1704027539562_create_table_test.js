@@ -5,5 +5,5 @@ module.exports = {
         created_at timestamp DEFAULT CURRENT_TIMESTAMP,
         updated_at timestamp ON UPDATE CURRENT_TIMESTAMP
     )`,
-    "down": "DROP TABLE ID EXISTS test"
+    "down": "DROP TABLE IF EXISTS test"
 }
