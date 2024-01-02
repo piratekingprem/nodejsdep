@@ -3,6 +3,8 @@ const app = express();
 const apiRoutes = require('./src/api/routes/api');
 require('dotenv').config();
 const PORT = process.env.PORT || 3000
+const cors = require('cors');
+app.use(cors);
 app.get('/',(req,res)=>{
     res.send('working if changed too 3')
 })
